@@ -11,6 +11,13 @@ html {
   color: #333333;
 }
 
+h1 {
+  font-size: 2em;
+  font-weight: 800;
+  padding: 4px;
+  margin: 6px;
+}
+
 #dribbble {
   position: fixed;
   display: block;
@@ -24,27 +31,51 @@ html {
   fill: rgba(146, 156, 208, 0.8);
 }
 
-#twitter {
-  position: fixed;
-  display: block;
-  right: 25px;
-  bottom: 11px;
+.App {
+  text-align: center;
+  padding: 18px;
+  margin: 18px;
+  border-radius: 12px;
+  box-shadow: inset 6px 6px 12px #b7b9bb, inset -6px -6px 12px #ffffff;
 }
-#twitter svg {
-  width: 24px;
-  height: 24px;
-  fill: rgba(146, 156, 208, 0.8);
+
+.header {
+  padding: 1px;
+  margin: 12px;
+  color: rgba(0, 0, 0, 0.65);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  background: #f1f3f6;
+  box-shadow: inset 0 0 15px rgba(55, 84, 170, 0), inset 0 0 20px rgba(255, 255, 255, 0), 7px 7px 15px rgba(55, 84, 170, 0.15), -7px -7px 20px white, inset 0px 0px 4px rgba(255, 255, 255, 0.2);
+}
+.header p {
+  margin-top: 2em;
+  line-height: 1.45em;
+  padding: 4px;
+  margin: 3px;
+  color: rgba(0, 0, 0, 0.45);
 }
 
 .container {
   width: 100%;
-  height: 97vh;
+  height: auto;
+  padding: 16px;
+  margin: auto;
+  border-radius: 12px;
+  background: #f1f3f6;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .box {
   flex-direction: column;
-  width: 300px;
+  width: 360px;
   height: 420px;
+  padding: auto;
+  margin: 42px;
   background: #f1f3f6;
   border-radius: 20px;
   box-shadow: inset 0 0 15px rgba(55, 84, 170, 0), inset 0 0 20px rgba(255, 255, 255, 0), 7px 7px 15px rgba(55, 84, 170, 0.15), -7px -7px 20px white, inset 0px 0px 4px rgba(255, 255, 255, 0.2);
@@ -52,15 +83,22 @@ html {
 
 .text {
   width: 80%;
-  height: auto;
+  color: rgba(0, 0, 0, 0.65);
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
 }
 .text h1 {
+  font-size: 1.2em;
+  font-weight: 800;
+}
+.text h2 {
   font-size: 1.5em;
   font-weight: 600;
 }
 .text p {
   margin-top: 2em;
   line-height: 1.45em;
+  padding: 0px;
+  margin: 1px;
 }
 
 .btn {
@@ -73,7 +111,7 @@ html {
   width: 100px;
   height: 33px;
   text-decoration: none;
-  background: #9dabc0;
+  background: #2979ff;
   color: #fff;
   padding: 10px 63px;
   border-radius: 25px;
@@ -91,7 +129,7 @@ html {
   align-items: center;
   visibility: hidden;
   width: 120px;
-  background-color: #333;
+  background-color: rgba(0, 0, 0, 0.4);
   color: #fff;
   text-align: center;
   border-radius: 25px;

@@ -1,0 +1,12 @@
+.h1 {
+  width: 8rem;
+  border-radius: 0.25rem;
+  --tw-bg-opacity: 1;
+  background-color: rgba(75, 85, 99, var(--tw-bg-opacity));
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-weight: 700;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL3NyYy9jc3MvdGFpbHdpbmRfZ3JvYmFsLmNzcyIsIi4uLy4uL25vZGVfbW9kdWxlcy90YWlsd2luZGNzcy9saWIvbGliL3N1YnN0aXR1dGVDbGFzc0FwcGx5QXRSdWxlcy5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQ0VBLFdBQW1CO0VBQW5CLHNCQUFtQjtFQUFuQixrQkFBbUI7RUFBbkIsd0RBQW1CO0VBQW5CLGtCQUFtQjtFQUFuQixtQkFBbUI7RUFBbkIsbUJBQW1CO0VBQW5CLHNCQUFtQjtFQUFuQixnQkFBbUI7QURBakIiLCJmaWxlIjoidGFpbHdpbmRfZ3JvYmFsLmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5oMSB7XG4gICAgQGFwcGx5IGZvbnQtYm9sZCBweS0yIHB4LTQgcm91bmRlZCBiZy1ncmF5LTYwMCB3LTMyO1xuICB9IiwiQHRhaWx3aW5kIGJhc2U7XG5AdGFpbHdpbmQgY29tcG9uZW50cztcbkB0YWlsd2luZCB1dGlsaXRpZXM7Il19 */
